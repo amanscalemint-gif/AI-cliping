@@ -1,9 +1,12 @@
 # AI-cliping
-Smart AI video clipper that automatically finds and cuts highlight moments from your videos. Built with Streamlit + Whisper + MoviePy.
-import streamlit as st
-import moviepy.editor as mp
-from transformers import pipeline, AutoModelForSeq2SeqLM, AutoTokenizer
-import tempfile, os
+# Smart AI video clipper that automatically finds and cuts highlight moments from your videos.
+# Built with Streamlit + Whisper + MoviePy.
+
+"""
+Smart AI video clipper that automatically finds and cuts highlight moments from your videos.
+Built with Streamlit + Whisper + MoviePy.
+"""
+
 
 st.set_page_config(page_title="Aman ClipAI", page_icon="🎬")
 st.title("🎬 Aman ClipAI - Smart AI Video Clipper")
